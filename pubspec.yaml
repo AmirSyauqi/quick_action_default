@@ -1,0 +1,21 @@
+name: quick_action_default
+description: Reusable Flutter quick action card with filled, outlined, and liquid-glass variants.
+version: 0.0.1
+homepage: https://pub.dev/packages/quick_action_default
+repository: https://github.com/amirsyauqi/quick_action_default
+issue_tracker: https://github.com/amirsyauqi/quick_action_default/issues
+
+environment:
+  sdk: ^3.10.3
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
