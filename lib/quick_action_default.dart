@@ -29,7 +29,7 @@ class QuickActionDefault extends StatelessWidget {
     super.key,
     this.variant = QuickActionsVariant.filled,
     required this.actions,
-    this.maxActions = 4,
+    this.maxActions = 9,
     this.margin = const EdgeInsets.symmetric(horizontal: 16.0),
     this.padding = const EdgeInsets.symmetric(vertical: 6, horizontal: 16),
     this.iconSize = 32,

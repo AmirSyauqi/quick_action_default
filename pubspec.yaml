@@ -7,9 +7,10 @@ issue_tracker: https://github.com/amirsyauqi/quick_action_default/issues
 
 environment:
   sdk: ^3.10.3
-  flutter: '>=3.0.0'
+  flutter: ">=3.0.0"
 
 dependencies:
+  amicons: ^1.0.1
   flutter:
     sdk: flutter
 

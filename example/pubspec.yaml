@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  amicons: ^1.0.1
   cupertino_icons: ^1.0.8
   quick_action_default:
     path: ../
