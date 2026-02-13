@@ -10,12 +10,16 @@ A reusable Flutter quick-action widget with theme-aware defaults and three visua
 
 ### 🌞 Light Theme
 
+![Light Preview](https://raw.githubusercontent.com/AmirSyauqi/quick_action_default/main/assets/screenshots/preview_light.png)
+
 ### 🌙 Dark Theme
+
+![Dark Preview](https://raw.githubusercontent.com/AmirSyauqi/quick_action_default/main/assets/screenshots/preview_dark.png)
+
 
 ## Features
 
 - Simple action model: `QuickActionItem`
-- Up to 4 actions by default (`maxActions` configurable)
 - Optional custom colors and spacing
 - Light/dark theme support
 - Built-in tap handling and accessibility semantics
