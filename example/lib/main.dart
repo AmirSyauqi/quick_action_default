@@ -19,21 +19,25 @@ class _ExampleAppState extends State<ExampleApp> {
     QuickActionItem(
       title: 'Explore',
       icon: Amicons.iconly_discovery_fill,
+      iconColor: Colors.blue,
       onTap: () => debugPrint('Explore tapped'),
     ),
     QuickActionItem(
       title: 'Favorites',
       icon: Amicons.iconly_heart_fill,
+      iconColor: Colors.red,
       onTap: () => debugPrint('Favorites tapped'),
     ),
     QuickActionItem(
       title: 'History',
       icon: Amicons.iconly_paper_fill,
+      iconColor: Colors.green,
       onTap: () => debugPrint('History tapped'),
     ),
     QuickActionItem(
       title: 'Share',
-      icon: Amicons.iconly_send,
+      icon: Amicons.iconly_send_fill,
+      iconColor: Colors.purple,
       onTap: () => debugPrint('Share tapped'),
     ),
   ];

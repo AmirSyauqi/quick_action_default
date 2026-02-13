@@ -7,9 +7,17 @@ enum QuickActionsVariant { filled, outlined, glass }
 class QuickActionItem {
   final String title;
   final IconData icon;
+  final Color? iconColor;
+  final Color? textColor;
   final VoidCallback? onTap;
 
-  const QuickActionItem({required this.title, required this.icon, this.onTap});
+  const QuickActionItem({
+    required this.title,
+    required this.icon,
+    this.iconColor,
+    this.textColor,
+    this.onTap,
+  });
 }
 
 class QuickActionDefault extends StatelessWidget {
@@ -114,8 +122,8 @@ class QuickActionDefault extends StatelessWidget {
           child: _ActionItem(
             action: action,
             iconSize: iconSize,
-            iconColor: actionIconColor,
-            textColor: actionTextColor,
+            iconColor: action.iconColor ?? actionIconColor,
+            textColor: action.textColor ?? actionTextColor,
           ),
         );
       }).toList(),
