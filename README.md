@@ -40,6 +40,7 @@ flutter pub get
 ```
 
 ## Usage
+Easily create action button (title, icon, color, onTap)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -62,7 +63,7 @@ QuickActionDefault(
 
 ```dart
 QuickActionDefault(
-  actions: actions,
+  actions: actions, //Define your action buttons here
   variant: QuickActionsVariant.outlined,
   backgroundColor: Colors.white,
   iconColor: Colors.deepOrange,
