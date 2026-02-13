@@ -27,6 +27,7 @@ class QuickActionDefault extends StatelessWidget {
   final EdgeInsetsGeometry margin;
   final EdgeInsetsGeometry padding;
   final double iconSize;
+  final double textSize;
   final double borderRadius;
   final Color? backgroundColor;
   final Color? iconColor;
@@ -41,6 +42,7 @@ class QuickActionDefault extends StatelessWidget {
     this.margin = const EdgeInsets.symmetric(horizontal: 16.0),
     this.padding = const EdgeInsets.symmetric(vertical: 6, horizontal: 16),
     this.iconSize = 32,
+    this.textSize = 14,
     this.borderRadius = 16,
     this.backgroundColor,
     this.iconColor,
@@ -123,6 +125,7 @@ class QuickActionDefault extends StatelessWidget {
             action: action,
             iconSize: iconSize,
             iconColor: action.iconColor ?? actionIconColor,
+            textSize: textSize,
             textColor: action.textColor ?? actionTextColor,
           ),
         );
@@ -159,11 +162,13 @@ class _ActionItem extends StatelessWidget {
     required this.action,
     required this.iconSize,
     required this.iconColor,
+    required this.textSize,
     required this.textColor,
   });
 
   final QuickActionItem action;
   final double iconSize;
+  final double textSize;
   final Color iconColor;
   final Color textColor;
 
@@ -186,9 +191,10 @@ class _ActionItem extends StatelessWidget {
                 action.title,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: Theme.of(
-                  context,
-                ).textTheme.bodySmall?.copyWith(color: textColor),
+                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                  color: textColor,
+                  fontSize: textSize,
+                ),
               ),
             ],
           ),
