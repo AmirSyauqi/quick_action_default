@@ -8,11 +8,7 @@ A reusable Flutter quick-action widget with theme-aware defaults and three visua
 
 ## Preview
 
-### 🌞 Light Theme
-### 🌙 Dark Theme
-
-## Preview
-
+### 🌞 Light Theme 🌙 Dark Theme
 <p float="left">
   <img src="https://raw.githubusercontent.com/AmirSyauqi/quick_action_default/main/assets/screenshots/preview_light.png" width="45%" />
   <img src="https://raw.githubusercontent.com/AmirSyauqi/quick_action_default/main/assets/screenshots/preview_dark.png" width="45%" />
