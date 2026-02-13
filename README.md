@@ -6,6 +6,12 @@ A reusable Flutter quick-action widget with theme-aware defaults and three visua
 - `QuickActionsVariant.outlined`
 - `QuickActionsVariant.glass` (liquid-glass style)
 
+## Preview
+
+### 🌞 Light Theme
+
+### 🌙 Dark Theme
+
 ## Features
 
 - Simple action model: `QuickActionItem`
@@ -13,6 +19,7 @@ A reusable Flutter quick-action widget with theme-aware defaults and three visua
 - Optional custom colors and spacing
 - Light/dark theme support
 - Built-in tap handling and accessibility semantics
+
 
 ## Installation
 
