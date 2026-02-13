@@ -86,7 +86,7 @@ QuickActionDefault(
 `QuickActionDefault`
 - `actions` (`List<QuickActionItem>`, required)
 - `variant` (`QuickActionsVariant`, default `filled`)
-- `maxActions` (`int`, default `4`)
+- `maxActions` (`int`, default `9`)
 - `margin` (`EdgeInsetsGeometry`)
 - `padding` (`EdgeInsetsGeometry`)
 - `iconSize` (`double`)
